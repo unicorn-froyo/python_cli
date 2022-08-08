@@ -1,4 +1,4 @@
-"""Hello world CLI Logic"""
+"""Python CLI Logic"""
 
 import logging
 import os
