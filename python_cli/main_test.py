@@ -2,13 +2,13 @@
 
 from unittest import TestCase, main
 from unittest.mock import patch
-from example.main import main as entrypoint
+from python_cli.main import main as entrypoint
 
 
 class TestMain(TestCase):
     """Main tests"""
 
-    @patch("example.main.logging.info")
+    @patch("python_cli.main.logging.info")
     def test_main(self, mock_info):
         """Test entrypoint"""
         entrypoint()
