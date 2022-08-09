@@ -15,4 +15,6 @@ exclude_lines =
     if __name__ == "__main__":
 
 ignore_errors = True
-fail_under=100
+fail_under = 100
+show_missing = True
+skip_empty = True

@@ -5,3 +5,8 @@ requires = ["setuptools", "wheel"]
 [tool.black]
 line-length = 79
 include = '\.pyi?$'
+extend-exclude = '''
+/(
+  | venv\
+)/
+'''
